@@ -1,0 +1,257 @@
+@media screen and (max-width:1199px){
+  .bonuses__cucumbers2 {
+    left: 830px;
+  }
+
+  .bonuses__cucumbers3 {
+    left: -130px;
+  }
+
+  .still__tomatoes {
+  	right: -200px;
+  }
+
+  .still__spoon {
+  	left: -250px;
+  }
+
+  .recap__carrot {
+  	right: -540px;
+  	top: -80px;
+  }
+
+  .swiper-container-authorsDesktop {
+    display: none !important;
+  }
+
+  .featuring__authorstablet {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width:991px){
+  .bonuses__cucumbers2, .bonuses__cucumbers3 {
+    display: none !important;
+  }
+
+  .still__tomatoes, .still__spoon {
+  	display: none !important;
+  }
+
+  .negative-top-margin {
+  	margin-top: auto !important;
+  }
+
+  .true {
+  	background-image: none !important;
+  	background-color: #eee;
+  }
+
+  .overwhelm__takeout__resources {
+  	display: none !important;
+  }
+
+  .notify__wrapper__spinach {
+  	background-image: none;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .best__border__chicken {
+  	display: none !important;
+  }
+
+  .sixdays {
+		padding-top: 40px !important;
+		padding-bottom: 40px !important;
+	}
+
+	.sixdays__box__afford  {
+		color: white;
+		font-size: 42px !important;
+	}
+
+	.sixdays__box {
+		background: none !important;
+		height: auto !important;
+	}
+
+	.best__border {
+		border: none;
+	}
+
+	.best__border__thin {
+		display: none;
+		visibility: hidden;
+	}
+
+	.best__border__chicken {
+		background-position: center top !important;
+		height: 340px !important;
+	}
+
+	.best__border__image {
+		margin: 0 !important;
+	}
+
+	.get {
+		background-repeat: repeat;
+		margin: 0 auto !important;
+		background-image: url('/images/uhlb/background-mobile-get-ultimate-bundles.png') !important;
+	}
+
+	.get__bullets__image {
+		margin: 0 auto;
+	}
+
+	.groceries {
+		background-image: none !important;
+	}
+
+	.groceries__wrapper {
+		max-width: 100%;
+	}
+
+	.products__category__image{
+		display: none;
+	}
+
+	.testimonial-4__rectangle , .testimonial-5__rectangle{
+		background-image: none !important;
+	}
+
+	.testimonial-4  {
+		color: white;
+		background-image: none !important;
+	}
+
+	.recap__type__image {
+		text-align: center !important;
+	}
+
+	.recap__type__description {
+		text-align: center !important;
+	}
+
+	.recap__type__divider {
+		margin: 0 auto;
+	}
+
+	.faqs__asperagus, .recap__carrot{
+		display: none;
+		visibility: hidden;
+	}
+
+	.testimonial-4__divider, .testimonial-5__divider {
+		background-color: #f59400 !important;
+	}
+
+	.testimonial-5__divider {
+		background-color: #f59400;
+	}
+
+	.still__happiness {
+		margin-top: 50px !important;
+	}
+
+	.testimonial-4__rectangle , .testimonial-5__rectangle {
+		min-height: 1px !important;
+	}
+
+	.testimonial-4__quote {
+		padding: 0 !important;
+	}
+
+	.testimonial-5 {
+		background-image: none !important;
+		background-color: #252331;
+		color: white;
+	}
+
+	.testimonial-5__rectangle {
+		height: auto !important;
+	}
+}
+
+@media only screen and (max-width: 417px){
+  .featuring__authorstablet {
+    display: none !important;
+  }
+
+  .bonuses__item {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+	.get__mobile {
+		display: block !important;
+		visibility: visible !important;
+	}
+
+	.product__items:before {
+		content: "\2190" !important;
+	}
+
+	.sixdays__box__afford {
+		font-size: 35px !important;
+	}
+
+	.products__category__image {
+		display: none;
+	}
+
+	.true__how, .true__how__divider {
+		border: none !important;
+	}
+
+	.featuring__authors {
+		display: none;
+	}
+
+	.featuring__authorsmobile {
+		display: block !important;
+	}
+
+	.products__ebooklistmobile {
+		display: block !important;
+	}
+
+	.products__ebooklist {
+		display: none;
+	}
+
+	.products__ecourseslistmobile {
+		display: block !important;
+	}
+
+	.products__ecourseslist {
+		display: none !important;
+	}
+
+	.bonuses__listmobile {
+		display: block !important;
+	}
+
+	.bonuses__list {
+		display: none !important;
+	}
+
+	.notify__image {
+		display: none !important;
+
+	}
+	.header__launches:before, .header__launches:after {
+		content: none !important;
+	}
+  .bonuses__swipe, .products__items__swipe {
+    margin-top: 20px;
+  }
+  .overwhelm__mission {
+    padding-top: 0 !important;
+  }
+  .overwhelm__mission__challenges {
+    padding-top: 0 !important;
+  }
+  .overwhelm__takeout__because {
+    margin-bottom: 0 !important;
+  }
+}

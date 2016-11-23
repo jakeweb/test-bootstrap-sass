@@ -1,0 +1,79 @@
+$chalkboard: #252331;
+$silver: #959595;
+$dark-green: #405a02;
+$dark-red: #6f0f07;
+$orange: #f59400;
+$yellow: #be9516;
+$gold: #f8e4a6;
+$white: #fff;
+$line: #e1e1e1;
+$peach: #f9af83;
+
+$bebas-bold: "Bebas Neue Bold", sans-serif;
+$bebas-book: "Bebas Neue Book", sans-serif;
+
+.dark-green {
+	color: #405a02;
+}
+
+.orange {
+	color: #f59400;
+}
+
+.dark-red {
+	color: #6f0f07;
+}
+
+.yellow {
+	color: #be9516;
+}
+
+.padding-bottom {
+	padding-bottom: 10px;
+}
+
+.white {
+	color: white;
+}
+
+.center {
+	text-align: center;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+.img-center img {
+	margin: 0 auto;
+}
+
+.gold {
+	color: #f8e4a6;
+}
+
+.row-narrow {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.left {
+	text-align: left !important;
+}
+
+.right {
+	text-align: right;
+}
+
+.clear-margins {
+	margin: 0;
+}
+
+.negative-top-margin {
+	margin-top: -65px !important;
+}
+
+.width800 {
+	max-width: 800px;
+	margin: 0 auto;
+}

@@ -1,0 +1,16 @@
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+@import 'node_modules/Swiper/dist/css/swiper';
+@import 'node_modules/magnific-popup/dist/magnific-popup';
+@import 'node_modules/font-awesome/css/font-awesome';
+
+@import 'elements/fonts';
+
+@import 'elements/typography';
+@import 'elements/helpers';
+
+@import 'pages/home';
+@import 'elements/media-queries';
+@import 'pages/notify';
+@import 'elements/swiper';
+@import 'elements/timer';
+@import 'elements/topbar';

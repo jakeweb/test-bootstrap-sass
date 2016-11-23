@@ -1,0 +1,161 @@
+h4, .h4 {
+	font-family: "Thirsty Script Light";
+	font-weight: 300;
+	font-size: 40px;
+	padding-top: 0px;
+}
+
+h1, .h1 {
+	font-family: "Bebas Neue Bold";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 55px;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+	margin: 0;
+}
+
+.large-h1 {
+	font-size: 100px;
+}
+
+h2, .h2 {
+	font-family: "Bebas Neue Bold";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+h3, .h3 {
+	font-family: "Bebas Neue Bold";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	letter-spacing: 1.5px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+h5, .h5 {
+	font-family: "Thirsty Script Light";
+	font-weight: 300;
+	font-size: 35px;
+}
+
+h6, .h6 {
+	font-family: "Thirsty Script Light";
+	font-weight: 300;
+	font-size: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+p , .p, li{
+	font-family: "Source Sans Pro Regular";
+	font-size: 19.5px;
+}
+
+small {
+	font-size: 18px;
+	font-family: "Source Sans Pro Regular";
+	font-style: normal;
+	font-weight: 200;
+}
+
+li {
+	margin-bottom: 20px;
+}
+
+p strong {
+	font-family: "Source Sans Pro SemiBold";
+}
+
+a {
+	text-decoration: inherit;
+	color: inherit;
+	outline: 0;
+}
+
+a:active {
+	outline: 0;
+	color: inherit;
+}
+
+a:hover {
+	outline: 0;
+}
+
+a:hover {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+@media only screen and (max-width:767px) {
+  h2, .h2 {
+  	font-size: 35px;
+  }
+
+  h3, .h3 {
+  	font-size: 27.5px;
+  }
+
+  h5, .h5 {
+  	font-size: 30px;
+  }
+
+  h6, .h6 {
+  	font-size: 27.5px;
+  }
+
+  small {
+  	font-size: 16px;
+  }
+
+  .large-h1 {
+  	font-size: 90px;
+  }
+
+  p, .p, li {
+  	font-size: 18px;
+  }
+}
+
+
+@media only screen and (max-width: 417px) {
+  h2, .h2 {
+  	font-size: 30px;
+  }
+
+  h3, .h3 {
+  	font-size: 25px;
+  }
+
+  h5, .h5 {
+  	font-size: 27.5px;
+  }
+
+  h4, .h4 {
+  	font-size: 35px;
+  }
+
+  small {
+  	font-size: 14px;
+  }
+
+  .large-h1 {
+  	font-size: 70px !important;
+  }
+
+  p, .p, li {
+  	font-size: 16px;
+  	margin-top: 15px;
+  	margin-bottom: 15px;
+  }
+
+  h6, .h6 {
+  	font-size: 25px;
+  }
+}

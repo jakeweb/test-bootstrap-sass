@@ -1,0 +1,19 @@
+#utility-timer,
+#utility-timer3 {
+  color: white;
+  padding-top: 3px;
+  span {
+    display: inline;
+  }
+}
+
+
+#utility-timer2 {
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  #utility-timer2 {
+    font-size: 40px;
+  }
+}

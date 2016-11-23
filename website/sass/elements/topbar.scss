@@ -1,0 +1,98 @@
+.days, .hours, .minutes, .seconds {
+  display: inline;
+}
+
+#utility-timer {
+  color: white;
+  display: block !important;
+}
+
+.topbar__ends {
+  padding-top: 5px;
+  text-align: right;
+}
+
+.topbar .h3,
+.topbar .button,
+#utility-timer,
+.days,
+.hours,
+.minutes,
+.seconds {
+  font-size: 16px;
+}
+
+.topbar .fa {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .topbar .fa {
+    display: inline-block;
+  }
+
+  .topbar .h3,
+  .topbar .button,
+  #utility-timer,
+  .days,
+  .hours,
+  .minutes,
+  .seconds {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 991px) {
+  .topbar .h3,
+  .topbar .button,
+  #utility-timer,
+  .days,
+  .hours,
+  .minutes,
+  .seconds {
+    font-size: 30px !important;
+  }
+}
+
+@media (min-width: 1200px){
+  .topbar .h3,
+  .topbar .button,
+  #utility-timer,
+  .days,
+  .hours,
+  .minutes,
+  .seconds {
+    font-size: 40px !important;
+  }
+}
+
+.topbar {
+	// background-color: rgb(59, 19, 19);
+  background-color: #be9516;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	z-index: 9999;
+  .button {
+    float: right;
+  }
+}
+
+.topbar__desktop {
+    display: none;
+}
+
+@media (min-width: 418px) {
+  .topbar__desktop {
+    display: block;
+  }
+
+  .topbar__mobile {
+    display: none;
+  }
+}
