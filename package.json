@@ -15,6 +15,14 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2",
-    "gulp-watch": "^4.3.11"
+    "gulp-watch": "^4.3.11",
+    "animate.css": "^3.5.2",
+    "bootstrap-sass": "^3.0.0",
+    "font-awesome": "^4.6.3",
+    "jquery": "^3.1.1",
+    "jquery-lazy": "^1.7.3",
+    "magnific-popup": "^1.1.0",
+    "swiper": "^3.3.1",
+    "vue": "^2.0.1"
   }
 }

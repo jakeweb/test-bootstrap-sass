@@ -1,59 +1,28 @@
 @font-face {
-	font-family: 'Anodyne';
-	src: url('/fonts/Anodyne/Anodyne_gdi.eot');
-	src: url('/fonts/Anodyne/Anodyne_gdi.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/Anodyne/Anodyne_gdi.woff') format('woff'),
-		url('/fonts/Anodyne/Anodyne_gdi.svg') format('svg');
+  font-family: 'CrimsonText';
+  src: url('/website/build/fonts/CrimsonText-Italic/CrimsonText-Italic.eot?#iefix') format('embedded-opentype'),  
+  url('/website/build/fonts/CrimsonText-Italic/CrimsonText-Italic.woff') format('woff'), 
+  url('/website/build/fonts/CrimsonText-Italic/CrimsonText-Italic.ttf')  format('truetype'), 
+  url('/website/build/fonts/CrimsonText-Italic/CrimsonText-Italic.svg#CrimsonText-Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
 }
 
 @font-face {
-	font-family: 'Bebas Neue Bold';
-	src: url('/fonts/Bebas_Neue_Bold/31EF7E_0_0.eot');
-	src: url('/fonts/Bebas_Neue_Bold/31EF7E_0_0.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/Bebas_Neue_Bold/31EF7E_0_0.woff') format('woff'),
-		url('/fonts/Bebas_Neue_Bold/31EF7E_0_0.ttf') format('truetype');
+  font-family: 'CrimsonText';
+  src: url('/website/build/fonts/CrimsonText-Roman/CrimsonText-Roman.eot?#iefix') format('embedded-opentype'),  url('/website/build/fonts/CrimsonText-Roman/CrimsonText-Roman.woff') 
+  format('woff'), url('/website/build/fonts/CrimsonText-Roman/CrimsonText-Roman.ttf')  format('truetype'), 
+  url('/website/build/fonts/CrimsonText-Roman/CrimsonText-Roman.svg#CrimsonText-Roman') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Bebas Neue Book';
-	src: url('/fonts/Bebas_Neue_Bold/31EF7E_0_0.eot');
-	src: url('/fonts/Bebas_Neue_Bold/31EF7E_0_0.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/Bebas_Neue_Bold/31EF7E_0_0.woff') format('woff'),
-		url('/fonts/Bebas_Neue_Bold/31EF7E_0_0.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Source Sans Pro Light';
-	src: url('/fonts/Source_Sans_Pro_Light/Source-Sans-Pro-300.eot');
-	src: url('/fonts/Source_Sans_Pro_Light/Source-Sans-Pro-300.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/Source_Sans_Pro_Light/Source-Sans-Pro-300.woff') format('woff'),
-		url('/fonts/Source_Sans_Pro_Light/Source-Sans-Pro-300.ttf') format('truetype'),
-		url('/fonts/Source_Sans_Pro_Light/Source-Sans-Pro-300.svg') format('svg');
-}
-
-@font-face {
-	font-family: 'Source Sans Pro Regular';
-	src: url('/fonts/Source_Sans_Pro_Regular/Source-Sans-Pro-regular.eot');
-	src: url('/fonts/Source_Sans_Pro_Regular/Source-Sans-Pro-regular.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/Source_Sans_Pro_Regular/Source-Sans-Pro-regular.woff') format('woff'),
-		url('/fonts/Source_Sans_Pro_Regular/Source-Sans-Pro-regular.ttf') format('truetype'),
-		url('/fonts/Source_Sans_Pro_Regular/Source-Sans-Pro-regular.svg') format('svg');
-}
-
-@font-face {
-	font-family: 'Source Sans Pro SemiBold';
-	src: url('/fonts/Source_Sans_Pro_SemiBold/Source-Sans-Pro-600.eot');
-	src: url('/fonts/Source_Sans_Pro_SemiBold/Source-Sans-Pro-600.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/Source_Sans_Pro_SemiBold/Source-Sans-Pro-600.woff') format('woff'),
-		url('/fonts/Source_Sans_Pro_SemiBold/Source-Sans-Pro-600.ttf') format('truetype'),
-		url('/fonts/Source_Sans_Pro_SemiBold/Source-Sans-Pro-600.svg') format('svg');
-}
-
-@font-face {
-	font-family: 'Thirsty Script Light';
-	src: url('/fonts/Thirsty_Script_Light/thirstyscriptlight-webfont.eot');
-	src: url('/fonts/Thirsty_Script_Light/thirstyscriptlight-webfont.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/Thirsty_Script_Light/thirstyscriptlight-webfont.woff') format('woff'),
-		url('/fonts/Thirsty_Script_Light/thirstyscriptlight-webfont.ttf') format('truetype'),
-		url('/fonts/Thirsty_Script_Light/thirstyscriptlight-webfont.svg') format('svg');
+  font-family: 'PathwayGothicOne-Book';
+  src: url('/website/build/fonts/PathwayGothicOne-Book/PathwayGothicOne-Book.eot?#iefix') format('embedded-opentype'),  
+  url('/website/build/fonts/PathwayGothicOne-Book/PathwayGothicOne-Book.woff') format('woff'), 
+  url('/website/build/fonts/PathwayGothicOne-Book/PathwayGothicOne-Book.ttf')  format('truetype'), 
+  url('/website/build/fonts/PathwayGothicOne-Book/HPathwayGothicOne-Book.svg#PathwayGothicOne-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
