@@ -1,19 +1,14 @@
-h4, .h4 {
-	font-family: "Thirsty Script Light";
-	font-weight: 300;
-	font-size: 40px;
-	padding-top: 0px;
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+	margin: 0;
+	color: $navy;
 }
 
 h1, .h1 {
-	font-family: "Bebas Neue Bold";
+	font-family: $pathway-gothic-one;
 	font-style: normal;
-	font-weight: 700;
-	font-size: 55px;
-}
-
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-	margin: 0;
+	font-weight: 400;
+	font-size: 45px;
+	letter-spacing: 0.3;
 }
 
 .large-h1 {
@@ -21,41 +16,45 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 h2, .h2 {
-	font-family: "Bebas Neue Bold";
+	font-family: $pathway-gothic-one;
 	font-style: normal;
-	font-weight: 500;
-	font-size: 40px;
+	font-weight: 400;
+	font-size: 35px;
+	letter-spacing: 0.3;
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
 
 h3, .h3 {
-	font-family: "Bebas Neue Bold";
-	font-style: normal;
-	font-weight: 500;
+	font-family: $crimson;
+	font-style: italic;
+	font-weight: 400;
 	font-size: 30px;
-	letter-spacing: 1.5px;
+	letter-spacing: 0.5px;
 	margin-bottom: 15px;
 	margin-top: 15px;
 }
 
+h4, .h4 {
+	font-family: $crimson;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 25px;
+	letter-spacing: 0.5px;
+	padding-top: 0px;
+}
 h5, .h5 {
-	font-family: "Thirsty Script Light";
-	font-weight: 300;
-	font-size: 35px;
-}
-
-h6, .h6 {
-	font-family: "Thirsty Script Light";
-	font-weight: 300;
+	font-family: $pathway-gothic-one;
+	font-weight: 400;
 	font-size: 30px;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	letter-spacing: 0.5px;
 }
 
 p , .p, li{
-	font-family: "Source Sans Pro Regular";
-	font-size: 19.5px;
+	font-family: $crimson;
+	font-size: 21px;
+	color: $navy;
+	margin-bottom: 40px;
 }
 
 small {

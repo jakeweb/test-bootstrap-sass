@@ -1,0 +1,30 @@
+.section {
+    padding: 6% 0 3%;
+}
+
+.section__title {
+    max-width: 530px;
+    margin: 0 auto 45px;
+}
+
+.section__text {
+    position: relative;
+    max-width: 560px;
+    margin: 0 auto;
+    .img {
+        position: absolute;
+        top: 0%;
+        &.img_right {
+            right: -150px;
+        }
+        @media screen and (max-width: 768px) {
+            .img {
+                position: relative;
+                display: block;
+                &.img_right {
+                    right: auto;
+                }
+            }
+        }
+    }
+}
