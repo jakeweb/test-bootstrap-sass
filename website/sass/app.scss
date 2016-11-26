@@ -1,6 +1,6 @@
-@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
-@import 'node_modules/Swiper/dist/css/swiper';
-@import 'node_modules/magnific-popup/dist/magnific-popup';
+@import 'node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
+// @import 'node_modules/Swiper/dist/css/swiper';
+// @import 'node_modules/magnific-popup/dist/magnific-popup';
 @import 'node_modules/font-awesome/css/font-awesome';
 
 @import 'elements/fonts';
@@ -13,5 +13,7 @@
 @import 'elements/timer';
 @import 'elements/header';
 @import 'elements/section';
-
-@import 'pages/hdcb';
+@import 'elements/offer-item';
+@import 'elements/cta';
+@import 'elements/faq';
+@import 'elements/footer';

@@ -1,19 +1,45 @@
 #utility-timer,
 #utility-timer3 {
-  color: white;
-  padding-top: 3px;
-  span {
-    display: inline;
-  }
+    color: white;
+    padding-top: 3px;
+    span {
+        display: inline;
+    }
 }
 
-
 #utility-timer2 {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 @media (min-width: 768px) {
-  #utility-timer2 {
-    font-size: 40px;
-  }
+    #utility-timer2 {
+        font-size: 40px;
+    }
+}
+
+.timer {
+    .timer__item {
+        display: inline-block;
+        .timer__item_time {
+        	font-family: $pathway-gothic-one;
+            font-size: 80px;
+            line-height: 100%;
+            margin: 0;
+            &:after {
+                content: ":";
+                display: inline-block;
+            }
+        }
+        .timer__item_type {
+            font-style: italic;
+        }
+        &:last-child {
+            .timer__item_time {
+                &:after {
+                    content: "";
+                    display: none;
+                }
+            }
+        }
+    }
 }

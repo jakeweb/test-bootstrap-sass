@@ -8,91 +8,90 @@ $gold: #f8e4a6;
 $white: #fff;
 $line: #e1e1e1;
 $peach: #f9af83;
-
 $navy: #18325B;
 $red: #F0353C;
-$beige: #E2CEBC;
-
+$beige: rgba(226, 206, 179, 0.58);
 
 $bebas-bold: "Bebas Neue Bold", sans-serif;
 $bebas-book: "Bebas Neue Book", sans-serif;
 
 $crimson: "CrimsonText";
 $pathway-gothic-one: "PathwayGothicOne-Book";
+$montserrat: "Montserrat";
 
 .dark-green {
-	color: #405a02;
+    color: #405a02;
 }
 
 .orange {
-	color: #f59400;
+    color: #f59400;
 }
 
 .dark-red {
-	color: #6f0f07;
+    color: #6f0f07;
 }
 
 .yellow {
-	color: #be9516;
-}
-
-.padding-bottom {
-	padding-bottom: 10px;
+    color: #be9516;
 }
 
 .white {
-	color: white;
+    color: white;
 }
-
-.center {
-	text-align: center;
+.red {
+	color: $red;
 }
-.justify {
-	text-align: justify;
+.padding-bottom {
+    padding-bottom: 10px;
 }
 .img-center {
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 .img-center img {
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 .gold {
-	color: #f8e4a6;
+    color: #f8e4a6;
 }
 
 .row-narrow {
-	margin: 0 auto;
-	max-width: 800px;
-}
-.inline-block {
-	display: inline-block;
-}
-.left {
-	text-align: left !important;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
-.right {
-	text-align: right;
+.inline-block {
+    display: inline-block;
 }
 
 .clear-margins {
-	margin: 0;
+    margin: 0;
 }
 
 .negative-top-margin {
-	margin-top: -65px !important;
+    margin-top: -65px !important;
 }
 
-.width800 {
-	max-width: 800px;
-	margin: 0 auto;
-}
 .width560 {
-	max-width: 560px;
-	margin: 0 auto;
+    max-width: 560px;
+    margin: 0 auto;
 }
+
 .mb-45 {
-	margin-bottom: 45px;
+    margin-bottom: 45px!important;
+}
+
+.first-letter:first-letter {
+    margin-top: -3px;
+    padding-right: 7px;
+    font-size: 100px;
+    line-height: 90px;
+    float: left;
+}
+
+.dotted-line {
+    display: block;
+    max-width: 320px;
+    border-bottom: 3px dotted $navy;
 }

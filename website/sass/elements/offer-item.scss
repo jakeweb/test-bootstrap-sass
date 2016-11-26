@@ -1,0 +1,16 @@
+.offer-item {
+    margin-bottom: 60px;
+    .offer-item__title {
+        max-width: 415px;
+    }
+    .offer-item__poster {
+    	padding-top: 15px;
+    }
+    .offer-item__footer {
+        i,
+        img {
+            vertical-align: baseline;
+            margin-right: 8px;
+        }
+    }
+}

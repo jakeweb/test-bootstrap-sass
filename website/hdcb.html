@@ -1,64 +1,483 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>Title</title>
-	<link rel="stylesheet" type="text/css" href="build/css/app.css">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="build/css/app.css">
 </head>
+
 <body>
-<header class="header">
-	<div class="container">
-		<div class="row">
-			<div class="pull-left">
-				<img src="build/images/presented-by-ultimate-bundles.png" alt="Presented by Ultimate Bundles" class="img-responsive">			
-			</div>
-			<div class="pull-right">
-				<h4 class="h4 inline-block">7 days only!</h4>
-				<a href="#" class="myButton">Get my bundle now</a>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-4">
-				<img src="build/images/Logo.png" alt="Logo" class="img-responsive">
-			</div>
-			<div class="col-xs-8">
-				<img src="build/images/info-image_updated.png" alt="Info" class="img-responsive">
-			</div>			
-		</div>
-	</div>
-</header>
-<section class="section">
-	<div class="section__title text-center">
-		<h2 class="h2 text-uppercase">Don't you just love Christmas shopping? <br> So cheap! So fast! So easy!</h2>
-		<p class="h4 mb-45">(OK, so if you're like me and don't think it's <br> any of those things, read on...)</p>
-	</div>
-	<!-- Branch -->
-	<img src="build/images/branch.png" alt="branch" class="img-responsive img-center mb-45">
-
-	<div class="pull-left text-right">
-		<img src="build/images/elf_licking_pole.png" alt="" class="">
-	</div>
-	<div class="width560">
-		<p class="justify">'Twas the month before Christmas and the wee elves here at Ultimate Bundles got to thinking:  what if we could give you (and your budget) a little holiday cheer? And so, we created A Very Merry Gift Certificate Bundle.</p>
-		<p class="justify">It's like having Santa's little helper as your personal assistant. For just $15, you'll get $180 in store credits from 12 online businesses that align with your simple, natural lifestyle.</p>
-		<p class="justify">It means glad tidings for your bank account and frees up your December evenings while you buy unique gifts for all the good girls and boys on your list. Now you can have your fruitcake and eat it, too.</p>
-	</div>
-</section>
-
-<section class="section">
-	<div class="section__title text-center">
-		<p class="h4">Think about it...</p>
-		<h2 class="h2 text-uppercase">even if you only use one certificate that still covers the cost of the bundle!</h2>
-		<p class="h4 mb-45">Jumpin' Jack Frost!</p>
-	</div>
-	<!-- Branch -->
-	<img src="build/images/branch.png" alt="branch" class="img-responsive img-center mb-45">
-	<div class="section__text">
-		<img src="build/images/Stacked_Elves.png" alt="" class="img img_right">
-		<p class="justify">Know you'll use more than one? The more, the merrier. All the other ones are just bonus cash for Christmas shopping or a few gifts for yourself (shhh... we won't tell).</p>
-		<p class="justify">Save up to $180 depending how many gift certificates you redeem. Even Santa can't beat that!</p>
-	</div>
-</section>
-<footer></footer>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="pull-left text-center">
+                    <a href="http://ultimate-bundles.com">
+                        <img src="build/images/presented-by-ultimate-bundles.png" alt="Presented by Ultimate Bundles" class="img-responsive">
+                    </a>
+                </div>
+                <div class="pull-right text-center">
+                    <h4 class="h4 inline-block">7 days only!</h4> &nbsp;
+                    <a href="#" class="myButton myButton_small text-center text-uppercase"><i class="fa fa-lock fa" aria-hidden="true"></i> Get my bundle now <i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <img src="build/images/Logo.png" alt="Logo" class="img-responsive">
+                </div>
+                <div class="col-xs-8">
+                    <img src="build/images/info-image_updated.png" alt="Info" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-push-3">
+                    <div class="section__title text-center">
+                        <h2 class="h2 text-uppercase">Don't you just love Christmas shopping? So cheap! So fast! So easy!</h2>
+                        <p class="h4 mb-45">(OK, so if you're like me and don't think it's any of those things, read on...)</p>
+                    </div>
+                    <!-- Branch -->
+                    <img src="build/images/branch.png" alt="branch" class="img-responsive img-center mb-45">
+                    <div class="width560">
+                        <p class="text-justify first-letter">'Twas the month before Christmas and the wee elves here at Ultimate Bundles got to thinking: what if we could give you (and your budget) a little holiday cheer? And so, we created <em>A Very Merry Gift Certificate Bundle.</em></p>
+                        <p class="text-justify">It's like having Santa's little helper as your personal assistant. <strong>For just $15, you'll get $180 in store credits from 12 online businesses that align with your simple, natural lifestyle.</strong></p>
+                        <p class="text-justify">It means glad tidings for your bank account and frees up your December evenings while you buy unique gifts for all the good girls and boys on your list. Now you can have your fruitcake and eat it, too.</p>
+                    </div>
+                </div>
+                <!-- Side image -->
+                <div class="col-sm-3 col-sm-pull-6 text-right">
+                    <img src="build/images/elf_licking_pole.png" alt="" class="side-img side-img_left">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Offers -->
+    <section class="section offers">
+        <div class="container">
+            <div class="row">
+                <div class="section__title text-center">
+                    <img src="build/images/Holly.png" alt="">
+                    <h2 class="h2 text-uppercase">Curious what this jolly ol' bundle of savings includes? </h2>
+                    <p class="h4 mb-45">Here's what we've got wrapped up for you:</p>
+                </div>
+            </div>
+            <!-- Offer -->
+            <div class="row offer-item">
+                <div class="col-sm-5">
+                    <img src="build/images/Bundles_Card.png" alt="" class="img-responsive offer-item__poster">
+                </div>
+                <div class="col-sm-7">
+                    <div class="offer-item__title">
+                        <h3 class="h5 text-uppercase">Bacon ipsum dolor amet chuck turkey tenderloin bacon</h3>
+                        <p class="clear-margins"><em>from eatyourbacon.com</em></p>
+                        <span class="dotted-line"></span>
+                    </div>
+                    <p class="offer-item__text">Frankfurter meatloaf leberkas, t-bone jerky tri-tip chuck beef ribs salami fatback filet mignon kevin cow. Shankle pork meatball, shank pig strip steak turducken cupim kielbasa porchetta bacon hamburger landjaeger meatloaf turkey. Salami turducken venison landjaeger pig drumstick.</p>
+                    <div class="offer-item__footer">
+                        <p class="clear-margins"><i>Value: $XX.XX</i><i class="fa fa-laptop fa-lg" aria-hidden="true"></i><i class="fa fa-globe fa-lg" aria-hidden="true"></i> <img src="build/images/USA_flag.png" alt="">
+                            <img src="build/images/Flag_of_Canada.svg.png" alt=""></p>
+                        <p class="note text-uppercase">standard shipping applies</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Offer -->
+            <div class="row offer-item">
+                <div class="col-sm-5">
+                    <img src="build/images/Bundles_Card.png" alt="" class="img-responsive offer-item__poster">
+                </div>
+                <div class="col-sm-7">
+                    <div class="offer-item__title">
+                        <h3 class="h5 text-uppercase">Bacon ipsum dolor amet chuck turkey tenderloin bacon</h3>
+                        <p class="clear-margins"><em>from eatyourbacon.com</em></p>
+                        <span class="dotted-line"></span>
+                    </div>
+                    <p class="offer-item__text">Frankfurter meatloaf leberkas, t-bone jerky tri-tip chuck beef ribs salami fatback filet mignon kevin cow. Shankle pork meatball, shank pig strip steak turducken cupim kielbasa porchetta bacon hamburger landjaeger meatloaf turkey. Salami turducken venison landjaeger pig drumstick.</p>
+                    <div class="offer-item__footer">
+                        <p class="clear-margins"><i>Value: $XX.XX</i><i class="fa fa-laptop fa-lg" aria-hidden="true"></i><i class="fa fa-globe fa-lg" aria-hidden="true"></i> <img src="build/images/USA_flag.png" alt="">
+                            <img src="build/images/Flag_of_Canada.svg.png" alt=""></p>
+                        <p class="note text-uppercase">standard shipping applies</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Offer -->
+            <div class="row offer-item">
+                <div class="col-sm-5">
+                    <img src="build/images/Bundles_Card.png" alt="" class="img-responsive offer-item__poster">
+                </div>
+                <div class="col-sm-7">
+                    <div class="offer-item__title">
+                        <h3 class="h5 text-uppercase">Bacon ipsum dolor amet chuck turkey tenderloin bacon</h3>
+                        <p class="clear-margins"><em>from eatyourbacon.com</em></p>
+                        <span class="dotted-line"></span>
+                    </div>
+                    <p class="offer-item__text">Frankfurter meatloaf leberkas, t-bone jerky tri-tip chuck beef ribs salami fatback filet mignon kevin cow. Shankle pork meatball, shank pig strip steak turducken cupim kielbasa porchetta bacon hamburger landjaeger meatloaf turkey. Salami turducken venison landjaeger pig drumstick.</p>
+                    <div class="offer-item__footer">
+                        <p class="clear-margins"><i>Value: $XX.XX</i><i class="fa fa-laptop fa-lg" aria-hidden="true"></i><i class="fa fa-globe fa-lg" aria-hidden="true"></i> <img src="build/images/USA_flag.png" alt="">
+                            <img src="build/images/Flag_of_Canada.svg.png" alt=""></p>
+                        <p class="note text-uppercase">standard shipping applies</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Offer -->
+            <div class="row offer-item">
+                <div class="col-sm-5">
+                    <img src="build/images/Bundles_Card.png" alt="" class="img-responsive offer-item__poster">
+                </div>
+                <div class="col-sm-7">
+                    <div class="offer-item__title">
+                        <h3 class="h5 text-uppercase">Bacon ipsum dolor amet chuck turkey tenderloin bacon</h3>
+                        <p class="clear-margins"><em>from eatyourbacon.com</em></p>
+                        <span class="dotted-line"></span>
+                    </div>
+                    <p class="offer-item__text">Frankfurter meatloaf leberkas, t-bone jerky tri-tip chuck beef ribs salami fatback filet mignon kevin cow. Shankle pork meatball, shank pig strip steak turducken cupim kielbasa porchetta bacon hamburger landjaeger meatloaf turkey. Salami turducken venison landjaeger pig drumstick.</p>
+                    <div class="offer-item__footer">
+                        <p class="clear-margins"><i>Value: $XX.XX</i><i class="fa fa-laptop fa-lg" aria-hidden="true"></i><i class="fa fa-globe fa-lg" aria-hidden="true"></i> <img src="build/images/USA_flag.png" alt="">
+                            <img src="build/images/Flag_of_Canada.svg.png" alt=""></p>
+                        <p class="note text-uppercase">standard shipping applies</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Offer -->
+            <div class="row offer-item">
+                <div class="col-sm-5">
+                    <img src="build/images/Bundles_Card.png" alt="" class="img-responsive offer-item__poster">
+                </div>
+                <div class="col-sm-7">
+                    <div class="offer-item__title">
+                        <h3 class="h5 text-uppercase">Bacon ipsum dolor amet chuck turkey tenderloin bacon</h3>
+                        <p class="clear-margins"><em>from eatyourbacon.com</em></p>
+                        <span class="dotted-line"></span>
+                    </div>
+                    <p class="offer-item__text">Frankfurter meatloaf leberkas, t-bone jerky tri-tip chuck beef ribs salami fatback filet mignon kevin cow. Shankle pork meatball, shank pig strip steak turducken cupim kielbasa porchetta bacon hamburger landjaeger meatloaf turkey. Salami turducken venison landjaeger pig drumstick.</p>
+                    <div class="offer-item__footer">
+                        <p class="clear-margins"><i>Value: $XX.XX</i><i class="fa fa-laptop fa-lg" aria-hidden="true"></i><i class="fa fa-globe fa-lg" aria-hidden="true"></i> <img src="build/images/USA_flag.png" alt="">
+                            <img src="build/images/Flag_of_Canada.svg.png" alt=""></p>
+                        <p class="note text-uppercase">standard shipping applies</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Offer -->
+            <div class="row offer-item">
+                <div class="col-sm-5">
+                    <img src="build/images/Bundles_Card.png" alt="" class="img-responsive offer-item__poster">
+                </div>
+                <div class="col-sm-7">
+                    <div class="offer-item__title">
+                        <h3 class="h5 text-uppercase">Bacon ipsum dolor amet chuck turkey tenderloin bacon</h3>
+                        <p class="clear-margins"><em>from eatyourbacon.com</em></p>
+                        <span class="dotted-line"></span>
+                    </div>
+                    <p class="offer-item__text">Frankfurter meatloaf leberkas, t-bone jerky tri-tip chuck beef ribs salami fatback filet mignon kevin cow. Shankle pork meatball, shank pig strip steak turducken cupim kielbasa porchetta bacon hamburger landjaeger meatloaf turkey. Salami turducken venison landjaeger pig drumstick.</p>
+                    <div class="offer-item__footer">
+                        <p class="clear-margins"><i>Value: $XX.XX</i><i class="fa fa-laptop fa-lg" aria-hidden="true"></i><i class="fa fa-globe fa-lg" aria-hidden="true"></i> <img src="build/images/USA_flag.png" alt="">
+                            <img src="build/images/Flag_of_Canada.svg.png" alt=""></p>
+                        <p class="note text-uppercase">standard shipping applies</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Offer -->
+            <div class="row offer-item">
+                <div class="col-sm-5">
+                    <img src="build/images/Bundles_Card.png" alt="" class="img-responsive offer-item__poster">
+                </div>
+                <div class="col-sm-7">
+                    <div class="offer-item__title">
+                        <h3 class="h5 text-uppercase">Bacon ipsum dolor amet chuck turkey tenderloin bacon</h3>
+                        <p class="clear-margins"><em>from eatyourbacon.com</em></p>
+                        <span class="dotted-line"></span>
+                    </div>
+                    <p class="offer-item__text">Frankfurter meatloaf leberkas, t-bone jerky tri-tip chuck beef ribs salami fatback filet mignon kevin cow. Shankle pork meatball, shank pig strip steak turducken cupim kielbasa porchetta bacon hamburger landjaeger meatloaf turkey. Salami turducken venison landjaeger pig drumstick.</p>
+                    <div class="offer-item__footer">
+                        <p class="clear-margins"><i>Value: $XX.XX</i><i class="fa fa-laptop fa-lg" aria-hidden="true"></i><i class="fa fa-globe fa-lg" aria-hidden="true"></i> <img src="build/images/USA_flag.png" alt="">
+                            <img src="build/images/Flag_of_Canada.svg.png" alt=""></p>
+                        <p class="note text-uppercase">standard shipping applies</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Offer -->
+            <div class="row offer-item">
+                <div class="col-sm-5">
+                    <img src="build/images/Bundles_Card.png" alt="" class="img-responsive offer-item__poster">
+                </div>
+                <div class="col-sm-7">
+                    <div class="offer-item__title">
+                        <h3 class="h5 text-uppercase">Bacon ipsum dolor amet chuck turkey tenderloin bacon</h3>
+                        <p class="clear-margins"><em>from eatyourbacon.com</em></p>
+                        <span class="dotted-line"></span>
+                    </div>
+                    <p class="offer-item__text">Frankfurter meatloaf leberkas, t-bone jerky tri-tip chuck beef ribs salami fatback filet mignon kevin cow. Shankle pork meatball, shank pig strip steak turducken cupim kielbasa porchetta bacon hamburger landjaeger meatloaf turkey. Salami turducken venison landjaeger pig drumstick.</p>
+                    <div class="offer-item__footer">
+                        <p class="clear-margins"><i>Value: $XX.XX</i><i class="fa fa-laptop fa-lg" aria-hidden="true"></i><i class="fa fa-globe fa-lg" aria-hidden="true"></i> <img src="build/images/USA_flag.png" alt="">
+                            <img src="build/images/Flag_of_Canada.svg.png" alt=""></p>
+                        <p class="note text-uppercase">standard shipping applies</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Offer -->
+            <div class="row offer-item">
+                <div class="col-sm-5">
+                    <img src="build/images/Bundles_Card.png" alt="" class="img-responsive offer-item__poster">
+                </div>
+                <div class="col-sm-7">
+                    <div class="offer-item__title">
+                        <h3 class="h5 text-uppercase">Bacon ipsum dolor amet chuck turkey tenderloin bacon</h3>
+                        <p class="clear-margins"><em>from eatyourbacon.com</em></p>
+                        <span class="dotted-line"></span>
+                    </div>
+                    <p class="offer-item__text">Frankfurter meatloaf leberkas, t-bone jerky tri-tip chuck beef ribs salami fatback filet mignon kevin cow. Shankle pork meatball, shank pig strip steak turducken cupim kielbasa porchetta bacon hamburger landjaeger meatloaf turkey. Salami turducken venison landjaeger pig drumstick.</p>
+                    <div class="offer-item__footer">
+                        <p class="clear-margins"><i>Value: $XX.XX</i><i class="fa fa-laptop fa-lg" aria-hidden="true"></i><i class="fa fa-globe fa-lg" aria-hidden="true"></i> <img src="build/images/USA_flag.png" alt="">
+                            <img src="build/images/Flag_of_Canada.svg.png" alt=""></p>
+                        <p class="note text-uppercase">standard shipping applies</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Offer -->
+            <div class="row offer-item">
+                <div class="col-sm-5">
+                    <img src="build/images/Bundles_Card.png" alt="" class="img-responsive offer-item__poster">
+                </div>
+                <div class="col-sm-7">
+                    <div class="offer-item__title">
+                        <h3 class="h5 text-uppercase">Bacon ipsum dolor amet chuck turkey tenderloin bacon</h3>
+                        <p class="clear-margins"><em>from eatyourbacon.com</em></p>
+                        <span class="dotted-line"></span>
+                    </div>
+                    <p class="offer-item__text">Frankfurter meatloaf leberkas, t-bone jerky tri-tip chuck beef ribs salami fatback filet mignon kevin cow. Shankle pork meatball, shank pig strip steak turducken cupim kielbasa porchetta bacon hamburger landjaeger meatloaf turkey. Salami turducken venison landjaeger pig drumstick.</p>
+                    <div class="offer-item__footer">
+                        <p class="clear-margins"><i>Value: $XX.XX</i><i class="fa fa-laptop fa-lg" aria-hidden="true"></i><i class="fa fa-globe fa-lg" aria-hidden="true"></i> <img src="build/images/USA_flag.png" alt="">
+                            <img src="build/images/Flag_of_Canada.svg.png" alt=""></p>
+                        <p class="note text-uppercase">standard shipping applies</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Offer -->
+            <div class="row offer-item">
+                <div class="col-sm-5">
+                    <img src="build/images/Bundles_Card.png" alt="" class="img-responsive offer-item__poster">
+                </div>
+                <div class="col-sm-7">
+                    <div class="offer-item__title">
+                        <h3 class="h5 text-uppercase">Bacon ipsum dolor amet chuck turkey tenderloin bacon</h3>
+                        <p class="clear-margins"><em>from eatyourbacon.com</em></p>
+                        <span class="dotted-line"></span>
+                    </div>
+                    <p class="offer-item__text">Frankfurter meatloaf leberkas, t-bone jerky tri-tip chuck beef ribs salami fatback filet mignon kevin cow. Shankle pork meatball, shank pig strip steak turducken cupim kielbasa porchetta bacon hamburger landjaeger meatloaf turkey. Salami turducken venison landjaeger pig drumstick.</p>
+                    <div class="offer-item__footer">
+                        <p class="clear-margins"><i>Value: $XX.XX</i><i class="fa fa-laptop fa-lg" aria-hidden="true"></i><i class="fa fa-globe fa-lg" aria-hidden="true"></i> <img src="build/images/USA_flag.png" alt="">
+                            <img src="build/images/Flag_of_Canada.svg.png" alt=""></p>
+                        <p class="note text-uppercase">standard shipping applies</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Offer -->
+            <div class="row offer-item">
+                <div class="col-sm-5">
+                    <img src="build/images/Bundles_Card.png" alt="" class="img-responsive offer-item__poster">
+                </div>
+                <div class="col-sm-7">
+                    <div class="offer-item__title">
+                        <h3 class="h5 text-uppercase">Bacon ipsum dolor amet chuck turkey tenderloin bacon</h3>
+                        <p class="clear-margins"><em>from eatyourbacon.com</em></p>
+                        <span class="dotted-line"></span>
+                    </div>
+                    <p class="offer-item__text">Frankfurter meatloaf leberkas, t-bone jerky tri-tip chuck beef ribs salami fatback filet mignon kevin cow. Shankle pork meatball, shank pig strip steak turducken cupim kielbasa porchetta bacon hamburger landjaeger meatloaf turkey. Salami turducken venison landjaeger pig drumstick.</p>
+                    <div class="offer-item__footer">
+                        <p class="clear-margins"><i>Value: $XX.XX</i><i class="fa fa-laptop fa-lg" aria-hidden="true"></i><i class="fa fa-globe fa-lg" aria-hidden="true"></i> <img src="build/images/USA_flag.png" alt="">
+                            <img src="build/images/Flag_of_Canada.svg.png" alt=""></p>
+                        <p class="note text-uppercase">standard shipping applies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-push-3">
+                    <div class="section__title text-center">
+                        <p class="h4">Think about it...</p>
+                        <h2 class="h2 text-uppercase">Even if you only use one certificate, that still covers the cost of the bundle!</h2>
+                        <p class="h4 mb-45">Jumpin' Jack Frost!</p>
+                    </div>
+                    <!-- Branch -->
+                    <img src="build/images/branch.png" alt="branch" class="img-responsive img-center mb-45">
+                    <div class="section__text">
+                        <p class="text-justify first-letter">Know you'll use more than one? The more, the merrier. All the other ones are just bonus cash for Christmas shopping or a few gifts for yourself (<em>shhh... we won't tell</em>).</p>
+                        <p class="text-justify"><strong>Save up to $180</strong> depending how many gift certificates you redeem. Even Santa can't beat that!</p>
+                    </div>
+                </div>
+                <!-- Side image -->
+                <div class="col-sm-3 col-sm-push-3">
+                    <img src="build/images/Stacked_Elves.png" alt="" class="side-img side-img_right mb-45">
+                </div>
+            </div>
+            <!-- Cta -->
+            <div class="row">
+                <div class="col-sm-8 col-sm-push-2">
+                    <div class="cta">
+                        <h1 class="text-uppercase text-center red">"Yes, I've got visions <br> of holiday saving dancing in my head!"</h1>
+                        <p class="h4 text-center">Get A Very Merry Gift Certificate Bundle for just $15.</p>
+                        <div class="text-center">
+                            <a href="#" class="myButton myButton_large text-uppercase"><i class="fa fa-lock fa" aria-hidden="true"></i> Get my bundle now <i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="text-center">
+                            <a href="#"><img src="build/images/Bundles_Card_Icons.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Timer -->
+            <div class="row text-center">
+                <p class="h3">Bundle goes away in:</p>
+                <div class="timer">
+                    <div class="timer__item">
+                        <p class="timer__item_time">00</p>
+                        <p class="timer__item_type">days</p>
+                    </div>
+                    <div class="timer__item">
+                        <p class="timer__item_time">00</p>
+                        <p class="timer__item_type">hrs</p>
+                    </div>
+                    <div class="timer__item">
+                        <p class="timer__item_time">00</p>
+                        <p class="timer__item_type">min</p>
+                    </div>
+                    <div class="timer__item">
+                        <p class="timer__item_time">00</p>
+                        <p class="timer__item_type">sec</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Faq -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="section__title text-center">
+                    <img src="build/images/Holly.png" alt="" class="">
+                    <h2 class="text-uppercase">And he puzzled three hours til his puzzler was sore,</h2>
+                    <p class="h4 mb-45">Then the Grinch thought of something he hadn't before!</p>
+                    <p class="h4 mb-45">(FAQ's)</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="faq">
+                        <p class="faq__question">
+                            <i class="fa fa-angle-double-down fa-lg" aria-hidden="true"></i>
+                            <em>How do I use my gift certificates? </em>
+                        </p>
+                        <div class="faq__answer">
+                            <p>All the details will be included in the email you receive after you purchase your bundle. When you login to the page you'll find specific instructions on how to redeem each of your gift certificates.</p>
+                            <p>You'll redeem your gift certificate either through a special link we'll give you, or with a coupon code we'll provide to you which can be used on in that company's checkout cart process. </p>
+                        </div>
+                    </div>
+                    <div class="faq">
+                        <p class="faq__question">
+                            <i class="fa fa-angle-double-down fa-lg" aria-hidden="true"></i>
+                            <em>I'm not sure I'll use all of them... is it still worth it?</em>
+                        </p>
+                        <div class="faq__answer">
+                            <p>You bet your plum pudding, it is! Each gift certificate gives you a full $15 store credit to that shop. Even if you only use one, you've still come out even. So if you use 2, or 4, or 11 -- well, Merry Christmas to you! You've totally come out ahead. #winningatalltheshopping </p>
+                        </div>
+                    </div>
+                    <div class="faq">
+                        <p class="faq__question">
+                            <i class="fa fa-angle-double-down fa-lg" aria-hidden="true"></i>
+                            <em>What about shipping costs?</em>
+                        </p>
+                        <div class="faq__answer">
+                            <p>These companies have agreed to honor their regular shipping policies, so if they usually have free shipping at $25 or more or a flat shipping rate of $4 (for example), they'll give you whatever that usual shipping rate is. In other words, a lot of online "special offers" will bump up the shipping to compensate for whatever it is they're giving you for "free". Our companies are not doing that. Santa puts his boot down at such naughtiness. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="faq">
+                        <p class="faq__question">
+                            <i class="fa fa-angle-double-down fa-lg" aria-hidden="true"></i>
+                            <em>I already did some Christmas shopping.</em>
+                        </p>
+                        <div class="faq__answer">
+                            <p>Well then, my friend, you deserve an extra egg nog latte for being so on the ball. If you've already gotten a head start on gift buying, this merry little bundle will help you finish well and cause an angel choir to sing in exaltation because you saved so much moolah this year. (This is real. I cannot make these things up.)</p>
+                        </div>
+                    </div>
+                    <div class="faq">
+                        <p class="faq__question">
+                            <i class="fa fa-angle-double-down fa-lg" aria-hidden="true"></i>
+                            <em>When do they expire?</em>
+                        </p>
+                        <div class="faq__answer">
+                            <p>All gift certificates will melt like icicles and expire on Monday, February 6. So even if you don't use them all before Christmas, you can still do a little post-Christmas shopping!</p>
+                        </div>
+                    </div>
+                    <div class="faq">
+                        <p class="faq__question">
+                            <i class="fa fa-angle-double-down fa-lg" aria-hidden="true"></i>
+                            <em>What's the catch?</em>
+                        </p>
+                        <div class="faq__answer">
+                            <p>There's no catch, honestly. These lovely companies are hoping you'll choose to choose them this holiday season, and feel so jolly about these gifts that you'll spread the word or buy from them again. The wee elves at Ultimate Bundles were just tickled pink to be able to spread more Christmas cheer, and could make it work by offering a brief one-week sale only.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Branch -->
+            <img src="build/images/branch.png" alt="branch" class="img-responsive img-center mb-45">
+            <!-- Cta -->
+            <div class="row">
+                <div class="col-sm-8 col-sm-push-2">
+                    <div class="cta">
+                        <h1 class="text-uppercase text-center red">"Yes, I want my figgy pudding and a cup of good cheer!"</h1>
+                        <p class="h4 text-center">Get A Very Merry Gift Certificate Bundle for just $15.</p>
+                        <div class="text-center">
+                            <a href="#" class="myButton myButton_large text-uppercase"><i class="fa fa-lock fa" aria-hidden="true"></i> Get my bundle now <i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="text-center">
+                            <a href="#"><img src="build/images/Bundles_Card_Icons.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Timer -->
+            <div class="row text-center">
+                <p class="h3">Bundle goes away in:</p>
+                <div class="timer">
+                    <div class="timer__item">
+                        <p class="timer__item_time">00</p>
+                        <p class="timer__item_type">days</p>
+                    </div>
+                    <div class="timer__item">
+                        <p class="timer__item_time">00</p>
+                        <p class="timer__item_type">hrs</p>
+                    </div>
+                    <div class="timer__item">
+                        <p class="timer__item_time">00</p>
+                        <p class="timer__item_type">min</p>
+                    </div>
+                    <div class="timer__item">
+                        <p class="timer__item_time">00</p>
+                        <p class="timer__item_type">sec</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="text-center mb-45">
+        <img src="build/images/Fox.png" alt="">
+    </div>
+    <footer class="footer text-center">
+        <p class="white clear-margins"><i class="fa fa-copyright" aria-hidden="true"></i> 2016 Ultimate Bundles Inc | Terms of Use | Privacy Policy</p>
+        <p class="white clear-margins">
+            <i>46115 Avalon Ave, Chilliwack, B.C. V2P 3P8</i>
+        </p>
+    </footer>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="build/js/script.js"></script>
 </body>
+
 </html>

@@ -18,37 +18,46 @@
     color: #ffffff;
     font-family: $pathway-gothic-one;
     font-size: 15px;
-    font-weight: bold;
     padding: 6px 24px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #0a5909;
-}
-
-.myButton:hover {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0a5909), color-stop(1, #1ece2a));
-    background: -moz-linear-gradient(top, #0a5909 5%, #1ece2a 100%);
-    background: -webkit-linear-gradient(top, #0a5909 5%, #1ece2a 100%);
-    background: -o-linear-gradient(top, #0a5909 5%, #1ece2a 100%);
-    background: -ms-linear-gradient(top, #0a5909 5%, #1ece2a 100%);
-    background: linear-gradient(to bottom, #0a5909 5%, #1ece2a 100%);
-    background-color: #0a5909;
-}
-
-.myButton:active {
-    position: relative;
-    top: 1px;
-}
-
-.myButton_large {
-    width: 362px;
-    height: 82px;
-    font-size: 32px;
-    letter-spacing: 0.3;
-}
-
-.myButton_small {
-    width: 224px;
-    height: 44px;
-    font-size: 21px;
-    letter-spacing: 0.3;
+    word-spacing: 3px;
+    &:hover {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0a5909), color-stop(1, #1ece2a));
+        background: -moz-linear-gradient(top, #0a5909 5%, #1ece2a 100%);
+        background: -webkit-linear-gradient(top, #0a5909 5%, #1ece2a 100%);
+        background: -o-linear-gradient(top, #0a5909 5%, #1ece2a 100%);
+        background: -ms-linear-gradient(top, #0a5909 5%, #1ece2a 100%);
+        background: linear-gradient(to bottom, #0a5909 5%, #1ece2a 100%);
+        background-color: #0a5909;
+    }
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+    &.myButton_large {
+        min-width: 362px;
+        height: 82px;
+        line-height: 200%;
+        font-size: 32px;
+        letter-spacing: 0.5px;
+    }
+    &.myButton_small {
+        min-width: 224px;
+        height: 44px;
+        line-height: 150%;
+        font-size: 21px;
+        letter-spacing: 0.4px;
+    }
+    @media only screen and (max-width: 417px) {
+        &.myButton_large {
+            min-width: auto;
+            line-height: 250%;
+            font-size: 25px;
+        }
+        &.myButton_small {
+            line-height: 150%;
+            font-size: 21px;
+        }
+    }
 }

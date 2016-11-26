@@ -1,0 +1,15 @@
+.faq {
+    margin-bottom: 55px;
+    .faq__question {
+        em {
+            margin-left: 10px;
+        }
+        &:hover {
+        	cursor: pointer;
+        }
+    }
+    .faq__answer {
+    	display: none;
+        padding-left: 14%;
+    }
+}
